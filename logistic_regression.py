@@ -140,6 +140,7 @@ fig2.update_layout(
     yaxis_title='Percentage of Survived',
     template='plotly_white'
 )
+print('hello world')
 
 st.plotly_chart(fig2, use_container_width=True)
 
